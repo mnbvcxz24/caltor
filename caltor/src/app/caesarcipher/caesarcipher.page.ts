@@ -68,6 +68,7 @@ export class CaesarcipherPage implements OnInit {
   clear(){
     this.plaintextValue = "";
     this.encryptedtextValue = "";
+    this.shift = 0;
   }
   
   text1 = false;
